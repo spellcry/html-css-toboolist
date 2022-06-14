@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="debug">
+<body>
     <header class="main-header">
         <img src="img/Logo.png" alt="Toboolist logo" class="main-header__logo">
         <h1 class="main-header__title">Toboolist</h1>
@@ -22,16 +22,16 @@
         </header>
         <div class="content-body">
             <ul class="task">
-                <li>
-                    New Task
+                <li class="task__section">
+                    <span class="list-style-triangle">&blacktriangledown;</span> New Task
                     <ul class="task__new">
                         <li><span class="check check--ok">&check;</span> Quarterly Newsletter <span
                                 class="label label--editorial">Editorial</span>
                         </li>
                     </ul>
                 </li>
-                <li>
-                    Today
+                <li class="task__section">
+                    <span class="list-style-triangle">&blacktriangledown;</span>Today
                     <ul class="task__today">
                         <li><span class="check check--ok">&check;</span> Recruiting blog post <span
                                 class="label label--editorial">Editorial</span></li>
@@ -43,8 +43,8 @@
                                 class="label label--mobile">Mobile</span></li>
                     </ul>
                 </li>
-                <li>
-                    Upcoming
+                <li class="task__section">
+                    <span class="list-style-triangle">&blacktriangledown;</span>Upcoming
                     <ul class="task__upcoming">
                         <li><span class="check check--no">&check;</span> Schedule meeting with Alex</li>
                         <li><span class="check check--ok">&check;</span> Homepage refresh <span
