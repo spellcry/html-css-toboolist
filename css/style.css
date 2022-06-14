@@ -42,6 +42,7 @@ body {
 /* Content */
 .content {
     background-color: #fff;
+    border-radius: 2.5px;
 }
 
 .content-header {
@@ -79,8 +80,76 @@ body {
     margin-bottom: 40px;
 }
 
+.task__section__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.task__section:last-child {
+    margin-bottom: 0;
+}
+
 .task__section ul li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.task li:last-child li:last-child {
+    margin-bottom: 0;
+}
+
+/* Check */
+.check {
+    margin-right: 5px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 16px;
+    text-align: center;
+}
+
+.check--ok {
+    border: 1px solid #64C0A9;
+    color: #64C0A9;
+}
+
+.check--no {
+    border: 1px solid #EA453B;
+    color: #EA453B;
+}
+
+/* Label */
+.label {
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 10px;
+}
+
+.label--editorial {
+    background-color: #45ABEA;
+}
+
+.label--q1goals {
+    background-color: #9C72E4;
+}
+
+.label--recruiting {
+    background-color: #64C0A9;
+}
+
+.label--mobile {
+    background-color: #F29E33;
+}
+
+.label--website {
+    background-color: #D863A1;
+}
+
+.label--sales {
+    background-color: #B0C926;
 }
 
 /* Regole di debug */
