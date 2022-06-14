@@ -30,14 +30,13 @@ body {
     padding: 10px;
     margin-bottom: 40px;
     background-color: #fff;
-    vertical-align: top;
-}
-
-.main-header__title {
     font-size: 34px;
     font-weight: 900;
 }
 
+.main-header__logo {
+    vertical-align: middle;
+}
 
 /* Content */
 .content {
